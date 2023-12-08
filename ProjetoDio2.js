@@ -11,21 +11,21 @@ while(vitorias<=152 && derrotas<152){
         vitorias=vitorias+1;
         break;
     }vitorias+=3;
-//---------------------------------------------------------//
+
     switch(derrotas){
         case 0:
         derrotas=derrotas+1;
         break;
     }derrotas+=1;
-//---------------------------------------------------------// 
+
 let saldo = valores(vitorias,derrotas);
 
 function valores (num1,num2){
     return num1-num2; 
 }
-//-----------------------------------------------------// partidas contador
+// partidas contador
 let partidas = saldo/2
-//------------------------------------------------------// if e elses
+// if e elses
 if(saldo<10){
     console.log("O seu heroi, na partida número "+partidas+" ficou no rank "+rank[0]+ " pois ele tem um saldo de " +saldo+ " vitorias");
     console.log("--------------------------------");
@@ -53,11 +53,8 @@ if(saldo<10){
                         if(saldo>100){
                             console.log("O seu heroi, na partida número "+partidas+" ficou no rank "+rank[6]+ " pois ele tem um saldo de " +saldo+ " vitorias");
                             console.log("--------------------------------");
-                        }
-
-                                    
+                        }                                  
     }      
-//--------------------------------------------------------//
 
 
 
